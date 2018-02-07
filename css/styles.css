@@ -1,0 +1,96 @@
+/*=========================
+		GENERAL
+=========================*/
+
+/* Clickable links */
+a, a:visited, a:hover {
+	color: black;
+	text-decoration: none;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Background and base colors, margins, and padding */
+.container {
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+}
+
+/*=========================
+		HEADER
+=========================*/
+
+/*** Dropdown Menu Build ***/
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: lime-green;
+	color: navy;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+/* The container <div> */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Changing colors on dropdown */
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+/***  Image alignment ***/
+
+/* Main Logo */
+
+
+/*=========================
+		FOOTER
+=========================*/
+
+/* Footer text alignment */
+.main-footer{
+	text-align: center;
+}
+
+/* Footer display margin and padding */
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+
+
+
