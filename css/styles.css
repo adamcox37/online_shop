@@ -2,7 +2,7 @@
 		GENERAL
 =========================*/
 
-/* Clickable links */
+/*** Clickable links ***/
 a, a:visited, a:hover {
 	color: black;
 	text-decoration: none;
@@ -13,7 +13,7 @@ img {
 	max-width: 100%;
 }
 
-/* Background and base colors, margins, and padding */
+/*** Background and base colors, margins, and padding ***/
 .container {
 	padding-bottom: 30px;
 	margin-bottom: 10px;
@@ -25,10 +25,13 @@ img {
 
 /*** Dropdown Menu Build ***/
 
+/* Hamburg bars */
+.menu-icon {
+	max-width: 25px;
+}
+
 /* Dropdown Button */
 .dropbtn {
-	background-color: lime-green;
-	color: navy;
 	padding: 16px;
 	font-size: 16px;
 	border: none;
@@ -70,21 +73,26 @@ img {
 	background-color: #3e8e41;
 }
 
-/***  Image alignment ***/
+/***  Main header margin and padding ***/
+.main-header {
+	padding-bottom: 20px;
+}
 
-/* Main Logo */
+.primary {
+	padding-top: 10px;
+}
 
 
 /*=========================
 		FOOTER
 =========================*/
 
-/* Footer text alignment */
+/*** Footer text alignment ***/
 .main-footer{
 	text-align: center;
 }
 
-/* Footer display margin and padding */
+/*** Footer display margin and padding ***/
 .main-footer {
 	background: #d9e4ea;
 	padding: 2em 0;

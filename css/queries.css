@@ -1,0 +1,26 @@
+/*=========================
+		MEDIA QUERIES
+=========================*/
+
+/*** Header ***/
+.main-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*** Body ***/
+.container {
+	display: flex;
+}
+
+@media (max-width: 769px) {
+
+	.secondary-logo {
+		visibility: hidden;
+	}
+
+	.main-logo {
+		align-self: center;
+	}
+
+}
