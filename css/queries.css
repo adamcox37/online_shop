@@ -9,9 +9,23 @@
 }
 
 /*** Body ***/
-.container {
+.row {
 	display: flex;
+	flex-direction: column;
+
 }
+
+/*** Footer ***/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
 
 @media (max-width: 769px) {
 
@@ -23,4 +37,7 @@
 		align-self: center;
 	}
 
+	.content {
+		display: inline-block;
+	}
 }
