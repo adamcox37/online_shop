@@ -102,9 +102,9 @@ p {
 }
 
 /*** Margin and padding ***/
-.col {
+.figure {
 	padding-bottom: 25px;
-	margin-left: 15px;
+	padding-bottom: 25px;
 }
 
 /*=========================

@@ -9,7 +9,7 @@
 }
 
 /*** Body ***/
-.row {
+. {
 	display: flex;
 	flex-direction: column;
 
@@ -36,8 +36,36 @@ body {
 	.main-logo {
 		align-self: center;
 	}
-
-	.content {
-		display: inline-block;
+	.detail {
+		padding-bottom: 20px;
 	}
 }
+
+@media (min-width: 949px) {
+
+	/*949*/
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: baseline;
+	}
+
+	.figure {
+		margin-left: 15px;
+	}
+
+	.detail {
+		clear: right;
+		text-align: center;
+	}
+}
+
+@media () {
+
+}
+
+
+
+
+
