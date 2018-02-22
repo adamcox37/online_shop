@@ -15,6 +15,10 @@
 
 }
 
+.main-logo {
+	align-self: center;
+}
+
 /*** Footer ***/
 body {
   display: flex;
@@ -22,28 +26,26 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  flex: 1;
-}
+/*** Mobile Screen ***/
+@media (max-width: 498px) {
 
+	.figure {
+		padding-bottom: 0px;
+		padding-top: 10px;
+	}
 
-@media (max-width: 769px) {
+	.detail {
+		margin-left: 15px;
+	}
 
 	.secondary-logo {
-		visibility: hidden;
-	}
-
-	.main-logo {
-		align-self: center;
-	}
-	.detail {
-		padding-bottom: 20px;
+	visibility: hidden;
 	}
 }
 
-@media (min-width: 949px) {
+/*** Tablet Screen ***/
+@media (min-width: 499px) and (max-width: 949px) {
 
-	/*949*/
 	.container {
 		display: flex;
 		flex-wrap: wrap;
@@ -58,13 +60,30 @@ body {
 	.detail {
 		clear: right;
 		text-align: center;
+		margin-top: 50px;
+	}
+
+}
+
+/*** Desktop Screen ***/
+@media (min-width: 950px) {
+
+		.container {
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+
+	.figure {
+		max-width: 400px;
+		margin-left: 15%;
+		
+	}
+
+	.detail {
+		margin: auto;
 	}
 }
-
-@media () {
-
-}
-
 
 
 

@@ -79,7 +79,6 @@ p {
 	padding-bottom: 20px;
 }
 
-
 /*=========================
 		BODY
 =========================*/
@@ -104,7 +103,10 @@ p {
 /*** Margin and padding ***/
 .figure {
 	padding-bottom: 25px;
-	padding-bottom: 25px;
+}
+
+.detail {
+	padding-bottom: 10px;
 }
 
 /*=========================
@@ -112,7 +114,7 @@ p {
 =========================*/
 
 /*** Footer text alignment ***/
-.main-footer{
+.main-footer {
 	text-align: center;
 }
 
@@ -120,7 +122,7 @@ p {
 .main-footer {
 	background: #d9e4ea;
 	padding: 2em 0;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 
