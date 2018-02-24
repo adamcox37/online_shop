@@ -26,6 +26,10 @@ body {
   min-height: 100vh;
 }
 
+.container {
+	flex: 1;
+}
+
 /*** Mobile Screen ***/
 @media (max-width: 498px) {
 
@@ -75,7 +79,8 @@ body {
 	}
 
 	.figure {
-		max-width: 400px;
+		/*max-width: 400px;
+		max-height: 400px;*/
 		margin-left: 15%;
 		
 	}
