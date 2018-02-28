@@ -110,6 +110,48 @@ p {
 	padding-bottom: 10px;
 }
 
+.product-title {
+	font-size: 3em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.price {
+	color: #00ccff;
+}
+
+/*** Tab Gallery ***/
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.shop {
+    position: relative;
+    display: none;
+}
+
 /*=========================
 		FOOTER
 =========================*/

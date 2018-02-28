@@ -67,6 +67,10 @@ body {
 		margin-top: 50px;
 	}
 
+	.store, .row {
+		margin-left: 15px;
+	}
+
 }
 
 /*** Desktop Screen ***/
