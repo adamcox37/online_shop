@@ -45,10 +45,38 @@ body {
 	.secondary-logo {
 	visibility: hidden;
 	}
+
+	.thumbnail {
+	width: 100px;
+	height: auto;
+	padding-left: 15px;
+	padding-top: 10px;
+	}
+
+	.shop-detail {
+		padding-left: 15px;
+	}
 }
 
 /*** Tablet Screen ***/
-@media (min-width: 499px) and (max-width: 949px) {
+@media (min-width: 499px) and (max-width: 650px) {
+	.thumbnail {
+		width: 125px;
+		height: auto;
+		padding-left: 15px;
+	}
+
+	.shop-detail, .row {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.row {
+		padding-top: 15px;
+	}
+}
+
+@media (min-width: 649px) and (max-width: 949px) {
 
 	.container {
 		display: flex;
@@ -67,30 +95,45 @@ body {
 		margin-top: 50px;
 	}
 
-	.store, .row {
-		margin-left: 15px;
+	.row, .shop-detail {
+		padding-left: 20px;
 	}
 
+	p {
+		padding-right: 20px;
+	}
+
+	.row {
+		padding-top: 20px;
+	}
 }
 
 /*** Desktop Screen ***/
 @media (min-width: 950px) {
 
-		.container {
+	.container, .grid {
 		display: flex;
-		flex-wrap: wrap;
-		
+		flex-wrap: wrap;	
 	}
 
 	.figure {
-		/*max-width: 400px;
-		max-height: 400px;*/
-		margin-left: 15%;
-		
+		margin-left: 15%;	
 	}
 
 	.detail {
 		margin: auto;
+	}
+
+	.row, .shop-detail {
+		margin-left: 20%;
+	}
+
+	p {
+		margin-right: 20%;
+	}
+
+	.row {
+		padding-top: 20px;
 	}
 }
 

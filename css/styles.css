@@ -87,7 +87,6 @@ p {
 /*** Clickable links ***/
 .button {
 	background-color: #00ccff;
-	color: white;
 	border-radius: 12px;
 	padding: 12px 24px;
 	text-align: center;
@@ -120,37 +119,14 @@ p {
 	color: #00ccff;
 }
 
+.thumbnail {
+	width: 200px;
+	height: auto;
+}
+
 /*** Tab Gallery ***/
 
-/* The grid: Four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 20%;
-    padding: 10px;
-}
 
-/* Style the images inside the grid */
-.column img {
-    opacity: 0.8; 
-    cursor: pointer; 
-}
-
-.column img:hover {
-    opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.shop {
-    position: relative;
-    display: none;
-}
 
 /*=========================
 		FOOTER
