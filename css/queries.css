@@ -34,12 +34,15 @@ body {
 @media (max-width: 498px) {
 
 	.figure {
+		width: 300px;
+		height: auto;
 		padding-bottom: 0px;
 		padding-top: 10px;
 	}
 
-	.detail {
-		margin-left: 15px;
+	.figure, .detail {
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 
 	.secondary-logo {
@@ -63,7 +66,7 @@ body {
 	.thumbnail {
 		width: 125px;
 		height: auto;
-		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 	.shop-detail, .row {
@@ -73,6 +76,15 @@ body {
 
 	.row {
 		padding-top: 15px;
+	}
+
+	.detail {
+		margin-bottom: 20px;
+	}
+
+	.container {
+		margin-left: 5%;
+		margin-left: 5%;
 	}
 }
 
@@ -134,6 +146,11 @@ body {
 
 	.row {
 		padding-top: 20px;
+	}
+
+	.thumbnail {
+		width: 225px;
+		height: auto;
 	}
 }
 
