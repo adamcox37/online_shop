@@ -86,13 +86,13 @@ p {
  
 /*** Clickable links ***/
 .button {
-	background-color: #00ccff;
+	background-color: #ccff33;
 	border-radius: 12px;
 	padding: 12px 24px;
 	text-align: center;
 	font-size: 16px;
 	margin: 4px 2px;
-	opacity: 0.6;
+	opacity: 0.8;
 	transition: 0.3;
 }
 
@@ -116,7 +116,7 @@ p {
 }
 
 .price {
-	color: #00ccff;
+	color: #ccff33;
 }
 
 .thumbnail {
